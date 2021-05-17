@@ -797,6 +797,16 @@ footer .flex h4 {
     height: 100%;
     padding: 3em 0 0 0;
   }
+  #skills {
+    width: 100%;
+    overflow: hidden;
+  }
+  #cer .cerbox:hover {
+    justify-content: center;
+  }
+  #cer .cerbox:hover .date {
+    width: 8em;
+  }
   .exp {
     opacity: 0;
   }
@@ -814,7 +824,7 @@ footer .flex h4 {
   footer {
     justify-content: space-around;
     align-content: center;
-    padding: 0 1.5em;
+    padding: 0 1em;
   }
   footer .flex h4 {
     font-size: 1.2em;
